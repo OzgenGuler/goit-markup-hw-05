@@ -532,6 +532,7 @@ font-size: 16px;
   cursor: pointer;
   background-color: #4d5ae5;
   border-radius: 4px;
+  border: none;
 }
 
 .subscribe-container .form-subscribe .btn_form .send-icon{
@@ -548,6 +549,8 @@ font-size: 16px;
   transition: opacity 250ms cubic-bezier(0.4,0,0.2,1);
   visibility: 250ms cubic-bezier(0.4,0,0.2,1);
   border: 1px solid;
+  transition: opacity 250ms cubic-bezier(0.4,0,0.2,1),
+  visibility 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
 .windows-modal .windows-modal_container{
@@ -559,8 +562,8 @@ font-size: 16px;
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0,0,0,0.14),
-  0px 1px 3px rgba(0,0,0,0.12)
-  0px 2px 1px rgba(0,0,0.2);
+  0px 1px 3px rgba(0,0,0,0.12),
+  0px 2px 1px rgba(0,0,0,0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
   }
@@ -576,14 +579,14 @@ font-size: 16px;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0,0,0,1);
+  border: 1px solid rgba(0,0,0,0.1);
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),
   border 250ms cubic-bezier(0.4,0,0.2,1);
   }
 
-.windows-modal_container .modal-btn:focus,
+.windows-modal_container .modal-btn:focus::after,
 .windows-modal_container .modal-btn:hover{
 background-color: #404bbf;
 border: none;
