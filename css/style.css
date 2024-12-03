@@ -652,7 +652,7 @@ a {
   fill: #4d5ae5;
 }
 
-.modal-label-textera{
+.modal-form .modal-label-textera{
 margin-bottom: 16px;
 }
 
@@ -663,7 +663,7 @@ margin-bottom: 16px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: rgba(46,47,66,0.4);
-border: 1px solid gba(46, 47, 66, 0.4);
+border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 background-color: transparent;
 padding: 8px 16px;
@@ -673,7 +673,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-color: #4D5AE5;
 }
 
-.modal-label-checkbox{
+.modal-form .modal-label-checkbox{
   margin-bottom: 24px;
 }
 
@@ -691,10 +691,10 @@ border-color: #4D5AE5;
   fill: transparent;
 }
 
-.label-checkbox:checked .icon-modal-box{
+.label-checkbox:checked .icon-modal-onaybox{
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: #F4F4FD;
 }
 
 .modal-label-checkbox .label-modal .label-link{
